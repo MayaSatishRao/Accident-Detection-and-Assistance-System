@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Open+Sans:wght@600;700&family=Poppins&display=swap");
+
+.login-container{
+   align-items: center;
+   justify-content: center;
+   width:40%;
+   margin:0 auto;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo-heading{
+   font-family: 'Arvo';
+   font-size: 3rem;
+   text-align: center;
+   margin-top:100px;
+}
+
+
+.navbar-logo, .offcanvas-title{
+  font-family: 'Arvo';
+  font-size: 30px;
+  margin-left:10rem;
+}
+.navbar-link{
+  font-size: 20px;
+  margin-right: 2rem;
+}
+.nav-links-container{
+  margin-right:20rem;
+}
+
+.alerts-container{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;    
+}
+.form-heading{
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #004277;
+  font-size: 30px;
+  padding:1rem;
+}
+
+
+.btn-danger {
+  margin-left: 100px;
+}
+
+.row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fit {
+  padding: 30px;
+}
+
+.piece {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table-heading{
+  text-align: center;
+  padding:1rem 0 2rem;
+}
+
+
+
+.heading {
+  text-align: center;
+  padding-top: 30px;
+  color:#2D033B;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: #FFF4D2;
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  transition: all .2s ease-in-out; 
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left {
+  margin-top: 20px;
+}
+
+.image {
+  margin-top: 15px;
+  border-radius: 5%;
+  width: 85%;
+  padding-left: 0px;
+}
+
+.img-out {
+  padding: 0px;
+}
+
+@media (max-width:800px) {
+    .login-container{
+      width:60%;
+    }
+}
+
+@media (max-width:500px) {
+  .login-container{
+    width:80%;
+  }
+}
