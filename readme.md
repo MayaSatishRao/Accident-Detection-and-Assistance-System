@@ -11,6 +11,10 @@ The diagram explains the architecture of the project. We get CCTV footage and co
 # Frontend of the web application
 
 The application is built using React. To install all dependencies, go to amsFrontend folder and run
-```bash npm install ```
+```bash 
+npm install 
+```
 To run the development server, run 
-```bash npm start ```
+```bash 
+npm start 
+```
