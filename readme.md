@@ -18,3 +18,29 @@ To run the development server, run
 ```bash 
 npm start 
 ```
+#Backend of the web application
+
+The backend is built using Django. To install al the required packages run 
+```bash
+pip install -r requirements.txt
+```
+To run the backend server, run
+```bash
+python manage.py runserver
+```
+To access the SQLLite database create a new superuser by running this command,
+```bash
+python manage.py createsuperuser
+```
+Accident detected frame is store in MongoDB database. To run MongoDB install MongoDB on your system and run
+```bash
+mongod
+```
+and in another terminal run 
+```bash
+mongosh
+```
+Create a new databse called accidentImages by running the command
+```bash
+use accidentImages
+```
