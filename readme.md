@@ -18,7 +18,7 @@ To run the development server, run
 ```bash 
 npm start 
 ```
-#Backend of the web application
+# Backend of the web application
 
 The backend is built using Django. To install al the required packages run 
 ```bash
