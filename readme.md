@@ -44,3 +44,7 @@ Create a new databse called accidentImages by running the command
 ```bash
 use accidentImages
 ```
+# Machine Learning Model
+VGG16 pretrained model is used to detect accident. It consists of 16 CNN layers. The dataset used for training is: 
+Accident Detection From CCTV Footage from Kaggle (link: https://www.kaggle.com/datasets/ckay16/accident-detection-from-cctv-footage). Opencv is used to convert video to frames. To add Accident detected frame to accidentImages MongoDB database, gridFS is used. 
+To alert the emergency services, Internet calling is also used. This is implemented using Twilio. Register a mobile number in Twilio. Update the Account SID, API Key, Twilio phone number, Registered phone number in keys.py file.
