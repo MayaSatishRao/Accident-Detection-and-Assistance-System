@@ -32,7 +32,7 @@ To access the SQLLite database create a new superuser by running this command,
 ```bash
 python manage.py createsuperuser
 ```
-Accident detected frame is store in MongoDB database. To run MongoDB install MongoDB on your system and run
+Accident detected frame is store in MongoDB. This is required for AccidentInfo component and the image is stored in accidentImages database.To run MongoDB install MongoDB on your system and run
 ```bash
 mongod
 ```
